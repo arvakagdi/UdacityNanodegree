@@ -1,0 +1,22 @@
+For Task 0: 
+
+Total number of steps are almost 4
+As we are just accessing one element without searching and printing it from both the files, the complexity is O(1)
+
+For Task 1:
+We use a for loop to loop through all the numbers in calls and texts to get unique number. The complexity is O(n)
+
+For Task 2:
+In this task to find the number that spends maximum time, we search each element in the call file and update a dictionary,
+Due to the for loops used for accessing file and updating the dictionary, the compexity is O(n)
+
+
+For Task 3:
+In all the loops used to get different numbers from list, we search the entire list once and later we update a new list which is O(n). 
+As we are using sort(), the time complexity is O(n) + nlogn which is O(nlogn)
+
+For Task 4:
+To check the numbers which are possibly tele marketing, we firt search all the numbers that make incoming calls and
+remove numbers that makes outgoing calls or texts. So the searching and copying takes O(n) time. Finally before printing we sort the list,
+which takes n log n time. Hence the overall complexity is O(nlogn)
+
